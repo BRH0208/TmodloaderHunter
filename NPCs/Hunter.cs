@@ -241,7 +241,7 @@ namespace Hunter.NPCs
 			}
 			if(NPC.downedGolemBoss && !NPC.downedAncientCultist){
 				lines.Add("For hunting cultists, Bring a Tsunami if you have it. It comes from fishron.");
-				lines.Add("For hunting cultists, It is imperative you do not hit the fake versions, they summon strong enimies. Fakes look different with dead eyes and no strip on their hoods");
+				lines.Add("For hunting cultists, It is imperative you do not hit the fake versions, they summon strong enimies. Fakes look different with dead eyes and no stripe on their hoods");
 				lines.Add("Before hunting cultists, Be ready for the lunar event");
 			}
 			if(NPC.downedAncientCultist && !NPC.downedMoonlord){
@@ -263,7 +263,7 @@ namespace Hunter.NPCs
 			addLineNPC(NPCID.TravellingMerchant,"I always love to meet travelers: people who wander",lines); // Traveler
 			addLineNPC(NPCID.GoblinTinkerer,"I do not need my weapons 'Modified', they work fine as-is",lines); // Goblin Tinkerer
 			addLineNPC(NPCID.GoblinTinkerer,"I am not having a goblin mess with my items",lines); // Goblin Tinkerer
-			addLineNPC(NPCID.Wizard,"No amount of magic vodoo crap will compare to a good bow",lines); //Wizard
+			addLineNPC(NPCID.Wizard,"No amount of magic will compare to a good bow",lines); //Wizard
 			addLineNPC(NPCID.Merchant,"That merchant has what you need: Rope, flares, Sickle, Rope, Marshmallows and bugnets!",lines); // Merchant
 			addLineNPC(NPCID.Merchant,"I hope the merchant won't run out of rope!",lines); // Merchant
 			addLineNPC(NPCID.Merchant,"The merchant is a fantastic supplier of survival gear",lines); // Merchant
